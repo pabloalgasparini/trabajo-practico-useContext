@@ -1,7 +1,4 @@
-import React from 'react'
 
-export const TaskContext = () => {
-  return (
-    <div>TaskContext</div>
-  )
-}
+import { createContext } from 'react'
+
+export const TaskContext = createContext()
